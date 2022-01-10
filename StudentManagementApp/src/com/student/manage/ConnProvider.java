@@ -11,8 +11,8 @@ public class ConnProvider {
 
             try {
                   Class.forName("com.mysql.cj.jdbc.Driver");
-                  String user = "javaUser";
-                  String password = "F7361i10350";
+                  String user = "USER-NAME";
+                  String password = "PASSWORD";
                   String url = "jdbc:mysql://localhost:3306/student_manage?autoReconnect=true&useSSL=false";
 
                   conn = DriverManager.getConnection(url, user, password);
